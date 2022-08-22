@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    height: 399px;
+    background: #707070;
+    border: 1px solid #707070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+}
+
+.p{
+    font-size: 14px;
+    margin-bottom: 50px;
+    margin-top: 24px;
+}
+
+.containerButton{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
