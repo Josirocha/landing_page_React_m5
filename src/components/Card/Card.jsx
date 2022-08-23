@@ -1,15 +1,17 @@
 import React from 'react'
 import styles from './Card.module.css'
 
-const Card = ({ name, description, oldPrice, price, installments }) => {
+const Card = ({ img, name, description, oldPrice, price, count, value }) => {
     return (
-        <div>
-            <div className={styles.img}></div>
+        <div className={styles.card}>
+            <div className={styles.img}>
+                <img src={img} alt="produto" />
+            </div>
             <h3>{name}</h3>
             <p>{description}</p>
-            <h4>De:{oldPrice}</h4>
-            <h5>Por:{price}</h5>
-            <p>ou {installments.count} de {installments.value}</p>
+            <h4>De:{oldPrice},00</h4>
+            <h5>Por:{price},00</h5>
+            <p>ou {count}x de {value}</p>
         </div>
     )
 }
