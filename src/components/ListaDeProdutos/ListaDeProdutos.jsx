@@ -20,7 +20,7 @@ export const ListaDeProdutos = () => {
     }
 
     const nextPage = () => {
-        setPage(pagina + 1)
+        setPage(page + 1)
     }
 
     useEffect(() => {
@@ -47,7 +47,7 @@ export const ListaDeProdutos = () => {
                 })}
             </div>
             <div className={styles.containerButton}>
-                <ButtonForm text='Ainda mais produtos aqui!' />
+                <ButtonForm  onClick={nextPage} text='Ainda mais produtos aqui!' />
             </div>
 
             <div>
