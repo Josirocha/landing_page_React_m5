@@ -2,4 +2,12 @@
     width: 340px;
     height: 30px;
     border: 1px solid #707070;
+    margin-top: 9px;
+
+}
+
+.label {}
+
+.inputWrapper {
+    margin-bottom: 35px;
 }
