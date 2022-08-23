@@ -1,0 +1,16 @@
+.cards {
+    width: 930px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+    margin-top: 16px;
+}
+
+.containerButton {
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
+    margin-bottom: 128px;
+}
