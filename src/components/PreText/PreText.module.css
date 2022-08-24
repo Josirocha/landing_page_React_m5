@@ -1,4 +1,11 @@
 .divText {
     width: 520px;
     height: 220px;
+    color: #888888;
+    font-size: 12px;
 }
+
+.h3{
+    margin-bottom: 30px;
+}
+
