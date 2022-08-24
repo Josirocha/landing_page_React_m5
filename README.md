@@ -4,6 +4,11 @@
 de produtos utilizando o React. Seu principal objetivo é transformar este
 layout em uma página funcional.
 
+## 📑Build da Aplicação no Vercel
+
+ - [Landing Page React ](https://landing-page-react-lovat.vercel.app/)
+
+
 ## 🟢Pré-Requisitos
 
 - Node.Js v16.17.0
