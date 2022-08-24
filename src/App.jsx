@@ -1,5 +1,6 @@
 import './App.css'
 import Container from './components/Container/Container'
+import Footer from './components/Footer/Footer'
 import Form from './components/Form/Form'
 import Header from './components/Header/Header'
 import { ListaDeProdutos } from './components/ListaDeProdutos/ListaDeProdutos'
@@ -14,7 +15,9 @@ function App() {
         <Form/>
         <TextLine text='Sua seleção especial'/>
         <ListaDeProdutos/>
+      
       </Container>
+      <Footer/>
 
     </div>
   )
