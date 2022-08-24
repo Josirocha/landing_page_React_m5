@@ -4,7 +4,7 @@ import styles from './Input.module.css'
 const Input = ({ label, name, type }) => {
     return (
         <div className={styles.inputWrapper}>
-            <label className={styles.label} htmlFor={name}>{label}</label>
+            <label className={styles.label} htmlFor={name}>{label}</label><br />
             <input className={styles.input} type={type} name={name} />
         </div>
     )

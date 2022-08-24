@@ -14,3 +14,28 @@
     justify-content: center;
     margin-bottom: 128px;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.p{
+    display: flex;
+    margin-top: 44px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.divButtom{
+    display: flex;
+    justify-content: center;
+    
+}
+

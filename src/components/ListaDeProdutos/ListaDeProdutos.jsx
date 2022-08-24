@@ -4,6 +4,7 @@ import ButtonForm from '../ButtonForm/ButtonForm'
 import Card from '../Card/Card'
 import TextLine from '../TextLine/TextLine'
 import styles from './ListaDeProdutos.module.css'
+import Input from '../Input/Input'
 
 export const ListaDeProdutos = () => {
 
@@ -47,17 +48,27 @@ export const ListaDeProdutos = () => {
                 })}
             </div>
             <div className={styles.containerButton}>
-                <ButtonForm  onClick={nextPage} text='Ainda mais produtos aqui!' />
+                <ButtonForm onClick={nextPage} text='Ainda mais produtos aqui!' />
             </div>
 
             <div>
                 <TextLine text='Compartilhe a novidade' />
             </div>
 
+            <div>
+                <p className={styles.p}>
+                    Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!
+                </p>
+            </div>
+
+            <div className={styles.inputContainer}>
+                <Input type='text' label='Nome do seu amigo:' />
+                <Input type='email' label='E-mail:' />
+            </div>
+            <div className={styles.divButtom}>
+                <ButtonForm text='Enviar Agora'/>
+            </div>
         </div>
-
-
-
 
     )
 
